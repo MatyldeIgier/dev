@@ -1,0 +1,63 @@
+.App-create {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.App-title {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/*------List de todo-----------*/
+ul {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    font-size: large;
+    font-family: "Chalkboard SE";
+    margin-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: mediumturquoise;
+
+}
+
+
+
+
+/*------ Fin list de todo-----------*/
+.App-view {
+    text-align: center;
+}
+
+.app-btn {
+    margin-left: 2%;
+}
+
+.app-btn-css {
+    margin-left: 2%;
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    padding : 5px 15px;
+}
+
+input[type=text]:focus {
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    padding : 5px 15px;
+}
